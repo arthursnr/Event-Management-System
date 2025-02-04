@@ -1,9 +1,19 @@
+"use client"
+
+import { useRouter } from "next/navigation";
+
 export function FormLogin() {
 
-    /* Não funciona */
+    const router = useRouter();
+
+    const login = () => {
+        router.push('/dashboard');
+    };
+    
     return (
         <>
             <div className="bg-black text-white w-screen h-screen">
+                <h1>Event Management Sytem</h1>
                 <form action="">
                     {/* login section */}
                     <fieldset>
@@ -27,6 +37,8 @@ export function FormLogin() {
                             required />
                     </fieldset>
                 </form>
+
+                <button onClick={login}>Login</button>
             </div>
         </>
     );
