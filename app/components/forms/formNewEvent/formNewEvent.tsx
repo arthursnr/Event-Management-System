@@ -124,7 +124,7 @@ export function FormNewEvent() {
                                         id="eventPrivacy"
                                         className="size-4 rounded-lg"
                                         required />
-                                    <label htmlFor="password">Participants invite key</label>
+                                    <label htmlFor="password">Private event</label>
                                 </div>
                             </div>
                         </fieldset>
@@ -133,19 +133,19 @@ export function FormNewEvent() {
                         <fieldset className="w-full text-base leading-none rounded-lg">
                             <div className="flex flex-col gap-6">
                                 <legend className="font-semibold text-2xl pb-4 border-b border-solid border-[#85b1e0]">Time and Date</legend>
-                                <div className="flex flex-row gap-y-3 w-full">
-                                    <div className="basis-2/4">
-                                        <div className="flex flex-col gap-y-3">
-                                            <label htmlFor="date">Date</label>
-                                            <input type="date"
-                                                name="date"
-                                                id="date"
-                                                className=" py-3 rounded-lg text-[#333333]"
-                                                required />
-                                        </div>
+                                <div className="flex flex-col gap-y-3 w-full">
+                                    <div className="flex flex-col gap-y-3">
+                                        <label htmlFor="date">Date</label>
+                                        <input type="date"
+                                            name="date"
+                                            id="date"
+                                            className=" p-3 rounded-lg text-[#333333]"
+                                            required />
                                     </div>
+                                </div>
 
-                                    <div className="basis-1/4">
+                                <div className="flex flex-row gap-x-3 w-full">
+                                    <div className="basis-1/2">
                                         <div className="flex flex-col gap-y-3">
                                             <label htmlFor="startTime">Start Time</label>
                                             <input type="time"
@@ -156,7 +156,7 @@ export function FormNewEvent() {
                                         </div>
                                     </div>
 
-                                    <div className="basis-1/4">
+                                    <div className="basis-1/2">
                                         <div className="flex flex-col gap-y-3">
                                             <label htmlFor="endTime">End Time</label>
                                             <input type="time"
