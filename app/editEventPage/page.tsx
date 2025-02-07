@@ -2,10 +2,10 @@
 
 import { useRouter } from "next/navigation";
 
-export function FormNewEvent() {
+export default function FormEditEvent() {
 
     const router = useRouter();
-    const registerNewEvent = () => [
+    const EditEvent = () => [
         router.push('/dashboard')
     ]
 
@@ -42,7 +42,6 @@ export function FormNewEvent() {
                                         placeholder="Event title"
                                         required />
                                 </div>
-                                
                                 <div className="flex flex-col gap-6">
                                     <label htmlFor="eventLogo">Event Logo</label>
                                     <div className="flex flex-col gap-y-3 w-full py-3 px-8 rounded-lg bg-white">
@@ -171,7 +170,7 @@ export function FormNewEvent() {
                             </div>
                         </fieldset>
                     </form>
-                    <button onClick={registerNewEvent} className="w-full h-12 rounded-lg text-base leading-none bg-[#007AFF] text-white">Register event</button>
+                    <button onClick={EditEvent} className="w-full h-12 rounded-lg text-base leading-none bg-[#007AFF] text-white">Register event</button>
 
                 </div>
 

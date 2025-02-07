@@ -14,7 +14,7 @@ export default function DashBoard() {
                 </header>
 
             </div>
-            <div className="bg-[#F5F5F5] shadow-2xl w-screen h-screen py-4">
+            <div className="bg-[#F5F5F5] shadow-2xl w-screen min-h-screen py-4">
                 <EventCards />
             </div>
             <div className="w-screen flex items-center justify-center">

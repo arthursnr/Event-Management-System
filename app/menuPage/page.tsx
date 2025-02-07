@@ -7,7 +7,7 @@ export default function MenuPage() {
 
     return (
         <>
-            <div className="w-screen h-screen bg-slate-400">
+            <div className="w-screen h-screen bg-[#F5F5F5]">
                 <div className="w-screen">
                     <header className="font-roboto flex bg-white shadow-md  items-center pt-14 pb-6 px-7 gap-4">
                         <ExitButton />
@@ -19,7 +19,7 @@ export default function MenuPage() {
                 <div className="pt-9 px-7 pb-3 flex flex-col gap-9">
                     <FormSearch />
 
-                    <div className="flex flex-col items-start">
+                    <div className="flex flex-col gap-4 items-start">
                         <NewEventButton />
                         <LogoutButton />
                     </div>

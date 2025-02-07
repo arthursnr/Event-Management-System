@@ -9,8 +9,9 @@ export function LogoutButton() {
     }
 
     return (
-        <button onClick={logout} className="inline-flex items-center gap-1">
-            <img src="/assets/logoutButton.svg" alt="Logout" className="h-5 w-5" />
+        <button onClick={logout} className="inline-flex items-center gap-1 pb-3 border-b border-gray-600 w-full">
+            <img 
+            src="/assets/logoutButton.svg" alt="Logout" className="h-5 w-5" />
             Logout
         </button>
 
