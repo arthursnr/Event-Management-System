@@ -3,14 +3,18 @@ import { EventCards } from "../components/eventCards/eventCards";
 
 export default function DashBoard() {
     return (
-        <div className="h-screen w-screen bg-slate-400">
+        <div className="h-screen w-screen">
             <div className="w-screen">
-                <header className="flex text-xl leading-none font-bold bg-white shadow-md pt-14 pb-6 px-7 gap-4">
-                    <h1>Events Management System</h1>
-                    <MenuButton />
+                <header className="flex justify-between items-center bg-white shadow-md w-screen pt-14 pb-6 px-7">
+                    <h1 className="text-xl leading-none font-bold">Events Management System</h1>
+
+                    <div className="flex justify-center items-center">
+                        <MenuButton />
+                    </div>
                 </header>
+
             </div>
-            <div className="bg-slate-400 shadow-2xl w-screen h-screen">
+            <div className="bg-[#F5F5F5] shadow-2xl w-screen h-screen py-4">
                 <EventCards />
             </div>
             <div className="w-screen flex items-center justify-center">

@@ -13,7 +13,7 @@ export function MenuButton() {
     }
 
     return (
-        <button onClick={menu}>
+        <button onClick={menu} className="">
             <HamburgerMenuIcon/>
         </button>
     )

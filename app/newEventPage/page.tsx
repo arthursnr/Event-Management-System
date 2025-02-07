@@ -1,7 +1,10 @@
+import { FormNewEvent } from "../components/forms/formNewEvent/formNewEvent";
+
+
 export default function NewEventPage() {
     return (
-        <div>
-            <form action=""></form>
-        </div>
+        <>
+            <FormNewEvent />
+        </>
     )
 }

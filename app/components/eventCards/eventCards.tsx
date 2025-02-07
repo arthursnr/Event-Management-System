@@ -10,12 +10,46 @@ export function EventCards() {
     }
 
     return (
-        <button
-            onClick={eventPage}
-            className="flex flex-col bg-slate-600 px-6 pt-8 pb-4 rounded-lg">
-            <img src="/assets/img1.png" alt="Event Image" />
-            <h1>event title</h1>
-            <p>event description</p>
-        </button>
+            <div className="flex  flex-wrap gap-2 items-center justify-center">
+                <div className="bg-[#E0E0E0] text-[#333333] ">
+                    <button
+                        onClick={eventPage}
+                        className="flex flex-col h-60 px-6 pt-8 pb-4 rounded-lg items-center justify-center">
+                        <img src="/assets/img1.png" alt="Event Image" />
+                        <h1>event title</h1>
+                        <p>event description</p>
+                    </button>
+                </div>
+
+                <div className="bg-[#E0E0E0] text-[#333333] ">
+                    <button
+                        onClick={eventPage}
+                        className="flex flex-col h-60 px-6 pt-8 pb-4 rounded-lg items-center justify-center">
+                        <img src="/assets/img1.png" alt="Event Image" />
+                        <h1>event title</h1>
+                        <p>event description</p>
+                    </button>
+                </div>
+
+                <div className="bg-[#E0E0E0] text-[#333333] ">
+                    <button
+                        onClick={eventPage}
+                        className="flex flex-col h-60 px-6 pt-8 pb-4 rounded-lg items-center justify-center">
+                        <img src="/assets/img1.png" alt="Event Image" />
+                        <h1>event title</h1>
+                        <p>event description</p>
+                    </button>
+                </div>
+
+                <div className="bg-[#E0E0E0] text-[#333333] ">
+                    <button
+                        onClick={eventPage}
+                        className="flex flex-col h-60 px-6 pt-8 pb-4 rounded-lg items-center justify-center">
+                        <img src="/assets/img1.png" alt="Event Image" />
+                        <h1>event title</h1>
+                        <p>event description</p>
+                    </button>
+                </div>
+            </div>
     )
 }
