@@ -33,8 +33,8 @@ export default function EventPage() {
                 </div>
             </div>
 
-            <div className="w-screen flex items-center justify-center">
-                <footer className="bg-white py-3 px-4 flex justify-center items-center w-full shadow-md">
+            <div className="fixed bottom-0 w-screen flex items-center justify-center">
+                <footer className=" bg-white py-3 px-4 flex justify-center items-center w-full shadow-md">
                     <ul className="flex items-center justify-between w-full flex-wrap gap-1 font-normal text-sm leading-none">
                         <p className="text-gray-600 text-sm font-bold">Event Management System</p>
                         <p className="text-[#333333] text-[10px] font-normal">© 2025 - All rights reserved.</p>
